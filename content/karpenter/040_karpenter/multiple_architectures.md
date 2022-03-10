@@ -90,7 +90,7 @@ As you see the main difference between both Deployments, is the nodeSelector
 `kubernetes.io/arch` and the names, all pointing to the architecture selection for that deployment. 
 
 {{% notice note %}}
-In this part off the workshop we will keep using Deployments with the Pause Image. Notice as well how both deployments point to the same container image. Amazon ECR (Elastic Container Repository) does support multi-architecture container images. You can read more about it **[here](https://aws.amazon.com/blogs/containers/introducing-multi-architecture-container-images-for-amazon-ecr/)**
+In this part of the workshop we will keep using Deployments with the Pause Image. Notice as well how both deployments point to the same container image. Amazon ECR (Elastic Container Repository) does support multi-architecture container images. You can read more about it **[here](https://aws.amazon.com/blogs/containers/introducing-multi-architecture-container-images-for-amazon-ecr/)**
 {{% /notice %}}
 
 
